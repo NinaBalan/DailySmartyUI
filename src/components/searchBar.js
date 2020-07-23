@@ -11,7 +11,7 @@ class SearchBar extends Component {
     }
 
     renderInput(field) {
-        return <input type="text" placeholde="Search DailySmarty" {...field.input} />
+        return <input type="text" placeholder="&#xf022; Search DailySmarty" {...field.input} />
     }
     render() {
         const { handleSubmit } = this.props;
